@@ -1,6 +1,7 @@
 import customtkinter as ctk
 
-TEXT_COLOR = '#000000'
+WHITE_COLOR = '#ffffff'
+BLACK_COLOR = '#000000'
 SIDE_COLOR = '#332C39'
 MAIN_COLOR = '#F0EEED'
 FORM_COLOR = SIDE_COLOR
