@@ -42,7 +42,8 @@ if __name__ == "__main__":
     root.geometry("700x400")
     root.columnconfigure((0, 1), weight=1)
     root.rowconfigure(0, weight=1)
-
+    root.grid_columnconfigure()
+    
     # Main Frame
     main_frame = create_frame(root, fg_color=MAIN_COLOR, width=350, corner_radius=0)
     main_frame.grid(row=0, column=0, columnspan=2, padx=(0, 0), sticky="nswe")
@@ -119,8 +120,8 @@ if __name__ == "__main__":
     )
     con_password_entry.grid(row=1, column=1)
 
-    # button = ctk.CTkButton(form_frame, width=100, fg_color=BLACK_COLOR)
-    # button.grid(row=3, column=0, padx=(0, 3), pady=(0, 3))
+    button = ctk.CTkButton(form_frame, width=100, fg_color=WHITE_COLOR)
+    button.grid(row=3, column=0, padx=(0, 2), pady=(0, 2))
     button = ctk.CTkButton(
         form_frame,
         text="Submit",
