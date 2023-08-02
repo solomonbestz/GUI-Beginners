@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\DigitalFortress\Documents\Codes\Python Codes\gui\venv"
+VIRTUAL_ENV="C:\Users\Hp 840\Documents\Codes\Python Beginners\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

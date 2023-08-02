@@ -42,7 +42,6 @@ if __name__ == "__main__":
     root.geometry("700x400")
     root.columnconfigure((0, 1), weight=1)
     root.rowconfigure(0, weight=1)
-    root.grid_columnconfigure()
     
     # Main Frame
     main_frame = create_frame(root, fg_color=MAIN_COLOR, width=350, corner_radius=0)
